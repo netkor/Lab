@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DB" targetNamespace="http://tempuri.org/DB.xsd" xmlns:mstns="http://tempuri.org/DB.xsd" xmlns="http://tempuri.org/DB.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DB" msprop:Generator_DataSetName="DB" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Bill_Mas" msprop:Generator_UserTableName="Bill_Mas" msprop:Generator_RowDeletedName="Bill_MasRowDeleted" msprop:Generator_RowChangedName="Bill_MasRowChanged" msprop:Generator_RowClassName="Bill_MasRow" msprop:Generator_RowChangingName="Bill_MasRowChanging" msprop:Generator_RowEvArgName="Bill_MasRowChangeEvent" msprop:Generator_RowEvHandlerName="Bill_MasRowChangeEventHandler" msprop:Generator_TableClassName="Bill_MasDataTable" msprop:Generator_TableVarName="tableBill_Mas" msprop:Generator_RowDeletingName="Bill_MasRowDeleting" msprop:Generator_TablePropName="Bill_Mas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BILL_NO" msprop:Generator_UserColumnName="BILL_NO" msprop:Generator_ColumnVarNameInTable="columnBILL_NO" msprop:Generator_ColumnPropNameInRow="BILL_NO" msprop:Generator_ColumnPropNameInTable="BILL_NOColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BILL_DATE" msprop:Generator_UserColumnName="BILL_DATE" msprop:Generator_ColumnVarNameInTable="columnBILL_DATE" msprop:Generator_ColumnPropNameInRow="BILL_DATE" msprop:Generator_ColumnPropNameInTable="BILL_DATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BILL_TIME" msprop:Generator_UserColumnName="BILL_TIME" msprop:Generator_ColumnVarNameInTable="columnBILL_TIME" msprop:Generator_ColumnPropNameInRow="BILL_TIME" msprop:Generator_ColumnPropNameInTable="BILL_TIMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LAB_CODE" msprop:Generator_UserColumnName="LAB_CODE" msprop:Generator_ColumnVarNameInTable="columnLAB_CODE" msprop:Generator_ColumnPropNameInRow="LAB_CODE" msprop:Generator_ColumnPropNameInTable="LAB_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TOTAL_AMT" msprop:Generator_UserColumnName="TOTAL_AMT" msprop:Generator_ColumnVarNameInTable="columnTOTAL_AMT" msprop:Generator_ColumnPropNameInRow="TOTAL_AMT" msprop:Generator_ColumnPropNameInTable="TOTAL_AMTColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LESS_AMT" msprop:Generator_UserColumnName="LESS_AMT" msprop:Generator_ColumnVarNameInTable="columnLESS_AMT" msprop:Generator_ColumnPropNameInRow="LESS_AMT" msprop:Generator_ColumnPropNameInTable="LESS_AMTColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="NET_AMT" msprop:Generator_UserColumnName="NET_AMT" msprop:Generator_ColumnVarNameInTable="columnNET_AMT" msprop:Generator_ColumnPropNameInRow="NET_AMT" msprop:Generator_ColumnPropNameInTable="NET_AMTColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Bill_Trans" msprop:Generator_UserTableName="Bill_Trans" msprop:Generator_RowDeletedName="Bill_TransRowDeleted" msprop:Generator_RowChangedName="Bill_TransRowChanged" msprop:Generator_RowClassName="Bill_TransRow" msprop:Generator_RowChangingName="Bill_TransRowChanging" msprop:Generator_RowEvArgName="Bill_TransRowChangeEvent" msprop:Generator_RowEvHandlerName="Bill_TransRowChangeEventHandler" msprop:Generator_TableClassName="Bill_TransDataTable" msprop:Generator_TableVarName="tableBill_Trans" msprop:Generator_RowDeletingName="Bill_TransRowDeleting" msprop:Generator_TablePropName="Bill_Trans">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BILL_NO" msprop:Generator_UserColumnName="BILL_NO" msprop:Generator_ColumnVarNameInTable="columnBILL_NO" msprop:Generator_ColumnPropNameInRow="BILL_NO" msprop:Generator_ColumnPropNameInTable="BILL_NOColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DETAILID" msprop:Generator_UserColumnName="DETAILID" msprop:Generator_ColumnVarNameInTable="columnDETAILID" msprop:Generator_ColumnPropNameInRow="DETAILID" msprop:Generator_ColumnPropNameInTable="DETAILIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PARA_TYPE_CODE" msprop:Generator_UserColumnName="PARA_TYPE_CODE" msprop:Generator_ColumnVarNameInTable="columnPARA_TYPE_CODE" msprop:Generator_ColumnPropNameInRow="PARA_TYPE_CODE" msprop:Generator_ColumnPropNameInTable="PARA_TYPE_CODEColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PARA_TYPE_MAS" msprop:Generator_UserTableName="PARA_TYPE_MAS" msprop:Generator_RowDeletedName="PARA_TYPE_MASRowDeleted" msprop:Generator_RowChangedName="PARA_TYPE_MASRowChanged" msprop:Generator_RowClassName="PARA_TYPE_MASRow" msprop:Generator_RowChangingName="PARA_TYPE_MASRowChanging" msprop:Generator_RowEvArgName="PARA_TYPE_MASRowChangeEvent" msprop:Generator_RowEvHandlerName="PARA_TYPE_MASRowChangeEventHandler" msprop:Generator_TableClassName="PARA_TYPE_MASDataTable" msprop:Generator_TableVarName="tablePARA_TYPE_MAS" msprop:Generator_RowDeletingName="PARA_TYPE_MASRowDeleting" msprop:Generator_TablePropName="PARA_TYPE_MAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PARA_TYPE_CODE" msprop:Generator_UserColumnName="PARA_TYPE_CODE" msprop:Generator_ColumnVarNameInTable="columnPARA_TYPE_CODE" msprop:Generator_ColumnPropNameInRow="PARA_TYPE_CODE" msprop:Generator_ColumnPropNameInTable="PARA_TYPE_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PARA_TYPE" msprop:Generator_UserColumnName="PARA_TYPE" msprop:Generator_ColumnVarNameInTable="columnPARA_TYPE" msprop:Generator_ColumnPropNameInRow="PARA_TYPE" msprop:Generator_ColumnPropNameInTable="PARA_TYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRICE" msprop:Generator_UserColumnName="PRICE" msprop:Generator_ColumnVarNameInTable="columnPRICE" msprop:Generator_ColumnPropNameInRow="PRICE" msprop:Generator_ColumnPropNameInTable="PRICEColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LAB_MAS" msprop:Generator_UserTableName="LAB_MAS" msprop:Generator_RowDeletedName="LAB_MASRowDeleted" msprop:Generator_RowChangedName="LAB_MASRowChanged" msprop:Generator_RowClassName="LAB_MASRow" msprop:Generator_RowChangingName="LAB_MASRowChanging" msprop:Generator_RowEvArgName="LAB_MASRowChangeEvent" msprop:Generator_RowEvHandlerName="LAB_MASRowChangeEventHandler" msprop:Generator_TableClassName="LAB_MASDataTable" msprop:Generator_TableVarName="tableLAB_MAS" msprop:Generator_RowDeletingName="LAB_MASRowDeleting" msprop:Generator_TablePropName="LAB_MAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LAB_CODE" msprop:Generator_UserColumnName="LAB_CODE" msprop:Generator_ColumnVarNameInTable="columnLAB_CODE" msprop:Generator_ColumnPropNameInRow="LAB_CODE" msprop:Generator_ColumnPropNameInTable="LAB_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="P_CODE" msprop:Generator_UserColumnName="P_CODE" msprop:Generator_ColumnVarNameInTable="columnP_CODE" msprop:Generator_ColumnPropNameInRow="P_CODE" msprop:Generator_ColumnPropNameInTable="P_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="R_CODE" msprop:Generator_UserColumnName="R_CODE" msprop:Generator_ColumnVarNameInTable="columnR_CODE" msprop:Generator_ColumnPropNameInRow="R_CODE" msprop:Generator_ColumnPropNameInTable="R_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="LAB_DATE" msprop:Generator_UserColumnName="LAB_DATE" msprop:Generator_ColumnVarNameInTable="columnLAB_DATE" msprop:Generator_ColumnPropNameInRow="LAB_DATE" msprop:Generator_ColumnPropNameInTable="LAB_DATEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PATIENT_MAS" msprop:Generator_UserTableName="PATIENT_MAS" msprop:Generator_RowDeletedName="PATIENT_MASRowDeleted" msprop:Generator_RowChangedName="PATIENT_MASRowChanged" msprop:Generator_RowClassName="PATIENT_MASRow" msprop:Generator_RowChangingName="PATIENT_MASRowChanging" msprop:Generator_RowEvArgName="PATIENT_MASRowChangeEvent" msprop:Generator_RowEvHandlerName="PATIENT_MASRowChangeEventHandler" msprop:Generator_TableClassName="PATIENT_MASDataTable" msprop:Generator_TableVarName="tablePATIENT_MAS" msprop:Generator_RowDeletingName="PATIENT_MASRowDeleting" msprop:Generator_TablePropName="PATIENT_MAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_CODE" msprop:Generator_UserColumnName="P_CODE" msprop:Generator_ColumnVarNameInTable="columnP_CODE" msprop:Generator_ColumnPropNameInRow="P_CODE" msprop:Generator_ColumnPropNameInTable="P_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" msprop:Generator_UserColumnName="P_NAME" msprop:Generator_ColumnVarNameInTable="columnP_NAME" msprop:Generator_ColumnPropNameInRow="P_NAME" msprop:Generator_ColumnPropNameInTable="P_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="P_AGE" msprop:Generator_UserColumnName="P_AGE" msprop:Generator_ColumnVarNameInTable="columnP_AGE" msprop:Generator_ColumnPropNameInRow="P_AGE" msprop:Generator_ColumnPropNameInTable="P_AGEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="P_SEX" msprop:Generator_UserColumnName="P_SEX" msprop:Generator_ColumnVarNameInTable="columnP_SEX" msprop:Generator_ColumnPropNameInRow="P_SEX" msprop:Generator_ColumnPropNameInTable="P_SEXColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="P_AREA" msprop:Generator_UserColumnName="P_AREA" msprop:Generator_ColumnVarNameInTable="columnP_AREA" msprop:Generator_ColumnPropNameInRow="P_AREA" msprop:Generator_ColumnPropNameInTable="P_AREAColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="REF_DR_MAS" msprop:Generator_UserTableName="REF_DR_MAS" msprop:Generator_RowDeletedName="REF_DR_MASRowDeleted" msprop:Generator_RowChangedName="REF_DR_MASRowChanged" msprop:Generator_RowClassName="REF_DR_MASRow" msprop:Generator_RowChangingName="REF_DR_MASRowChanging" msprop:Generator_RowEvArgName="REF_DR_MASRowChangeEvent" msprop:Generator_RowEvHandlerName="REF_DR_MASRowChangeEventHandler" msprop:Generator_TableClassName="REF_DR_MASDataTable" msprop:Generator_TableVarName="tableREF_DR_MAS" msprop:Generator_RowDeletingName="REF_DR_MASRowDeleting" msprop:Generator_TablePropName="REF_DR_MAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="R_CODE" msprop:Generator_UserColumnName="R_CODE" msprop:Generator_ColumnVarNameInTable="columnR_CODE" msprop:Generator_ColumnPropNameInRow="R_CODE" msprop:Generator_ColumnPropNameInTable="R_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="R_NAME" msprop:Generator_UserColumnName="R_NAME" msprop:Generator_ColumnVarNameInTable="columnR_NAME" msprop:Generator_ColumnPropNameInRow="R_NAME" msprop:Generator_ColumnPropNameInTable="R_NAMEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BILL_MAS_REPORT" msprop:Generator_UserTableName="BILL_MAS_REPORT" msprop:Generator_RowDeletedName="BILL_MAS_REPORTRowDeleted" msprop:Generator_TableClassName="BILL_MAS_REPORTDataTable" msprop:Generator_RowChangedName="BILL_MAS_REPORTRowChanged" msprop:Generator_RowClassName="BILL_MAS_REPORTRow" msprop:Generator_RowChangingName="BILL_MAS_REPORTRowChanging" msprop:Generator_RowEvArgName="BILL_MAS_REPORTRowChangeEvent" msprop:Generator_RowEvHandlerName="BILL_MAS_REPORTRowChangeEventHandler" msprop:Generator_TablePropName="BILL_MAS_REPORT" msprop:Generator_TableVarName="tableBILL_MAS_REPORT" msprop:Generator_RowDeletingName="BILL_MAS_REPORTRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BILL_NO" msprop:Generator_UserColumnName="BILL_NO" msprop:Generator_ColumnPropNameInRow="BILL_NO" msprop:Generator_ColumnVarNameInTable="columnBILL_NO" msprop:Generator_ColumnPropNameInTable="BILL_NOColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BILL_DATE" msprop:Generator_UserColumnName="BILL_DATE" msprop:Generator_ColumnPropNameInRow="BILL_DATE" msprop:Generator_ColumnVarNameInTable="columnBILL_DATE" msprop:Generator_ColumnPropNameInTable="BILL_DATEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BILL_TIME" msprop:Generator_UserColumnName="BILL_TIME" msprop:Generator_ColumnPropNameInRow="BILL_TIME" msprop:Generator_ColumnVarNameInTable="columnBILL_TIME" msprop:Generator_ColumnPropNameInTable="BILL_TIMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LAB_CODE" msprop:Generator_UserColumnName="LAB_CODE" msprop:Generator_ColumnPropNameInRow="LAB_CODE" msprop:Generator_ColumnVarNameInTable="columnLAB_CODE" msprop:Generator_ColumnPropNameInTable="LAB_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="P_CODE" msprop:Generator_UserColumnName="P_CODE" msprop:Generator_ColumnPropNameInRow="P_CODE" msprop:Generator_ColumnVarNameInTable="columnP_CODE" msprop:Generator_ColumnPropNameInTable="P_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" msprop:Generator_UserColumnName="P_NAME" msprop:Generator_ColumnPropNameInRow="P_NAME" msprop:Generator_ColumnVarNameInTable="columnP_NAME" msprop:Generator_ColumnPropNameInTable="P_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="P_AGE" msprop:Generator_UserColumnName="P_AGE" msprop:Generator_ColumnPropNameInRow="P_AGE" msprop:Generator_ColumnVarNameInTable="columnP_AGE" msprop:Generator_ColumnPropNameInTable="P_AGEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="P_SEX" msprop:Generator_UserColumnName="P_SEX" msprop:Generator_ColumnPropNameInRow="P_SEX" msprop:Generator_ColumnVarNameInTable="columnP_SEX" msprop:Generator_ColumnPropNameInTable="P_SEXColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="P_AREA" msprop:Generator_UserColumnName="P_AREA" msprop:Generator_ColumnPropNameInRow="P_AREA" msprop:Generator_ColumnVarNameInTable="columnP_AREA" msprop:Generator_ColumnPropNameInTable="P_AREAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="R_CODE" msprop:Generator_UserColumnName="R_CODE" msprop:Generator_ColumnPropNameInRow="R_CODE" msprop:Generator_ColumnVarNameInTable="columnR_CODE" msprop:Generator_ColumnPropNameInTable="R_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="R_NAME" msprop:Generator_UserColumnName="R_NAME" msprop:Generator_ColumnPropNameInRow="R_NAME" msprop:Generator_ColumnVarNameInTable="columnR_NAME" msprop:Generator_ColumnPropNameInTable="R_NAMEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LAB_DATE" msprop:Generator_UserColumnName="LAB_DATE" msprop:Generator_ColumnPropNameInRow="LAB_DATE" msprop:Generator_ColumnVarNameInTable="columnLAB_DATE" msprop:Generator_ColumnPropNameInTable="LAB_DATEColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BILL_TRANS_REPORT" msprop:Generator_UserTableName="BILL_TRANS_REPORT" msprop:Generator_RowDeletedName="BILL_TRANS_REPORTRowDeleted" msprop:Generator_TableClassName="BILL_TRANS_REPORTDataTable" msprop:Generator_RowChangedName="BILL_TRANS_REPORTRowChanged" msprop:Generator_RowClassName="BILL_TRANS_REPORTRow" msprop:Generator_RowChangingName="BILL_TRANS_REPORTRowChanging" msprop:Generator_RowEvArgName="BILL_TRANS_REPORTRowChangeEvent" msprop:Generator_RowEvHandlerName="BILL_TRANS_REPORTRowChangeEventHandler" msprop:Generator_TablePropName="BILL_TRANS_REPORT" msprop:Generator_TableVarName="tableBILL_TRANS_REPORT" msprop:Generator_RowDeletingName="BILL_TRANS_REPORTRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BILL_NO" msprop:Generator_UserColumnName="BILL_NO" msprop:Generator_ColumnPropNameInRow="BILL_NO" msprop:Generator_ColumnVarNameInTable="columnBILL_NO" msprop:Generator_ColumnPropNameInTable="BILL_NOColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DETAILID" msprop:Generator_UserColumnName="DETAILID" msprop:Generator_ColumnPropNameInRow="DETAILID" msprop:Generator_ColumnVarNameInTable="columnDETAILID" msprop:Generator_ColumnPropNameInTable="DETAILIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PARA_TYPE_CODE" msprop:Generator_UserColumnName="PARA_TYPE_CODE" msprop:Generator_ColumnPropNameInRow="PARA_TYPE_CODE" msprop:Generator_ColumnVarNameInTable="columnPARA_TYPE_CODE" msprop:Generator_ColumnPropNameInTable="PARA_TYPE_CODEColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PARA_TYPE" msprop:Generator_UserColumnName="PARA_TYPE" msprop:Generator_ColumnPropNameInRow="PARA_TYPE" msprop:Generator_ColumnVarNameInTable="columnPARA_TYPE" msprop:Generator_ColumnPropNameInTable="PARA_TYPEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PRICE" msprop:Generator_UserColumnName="PRICE" msprop:Generator_ColumnPropNameInRow="PRICE" msprop:Generator_ColumnVarNameInTable="columnPRICE" msprop:Generator_ColumnPropNameInTable="PRICEColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="LAB_MAS_PATIENT_MAS" msdata:parent="LAB_MAS" msdata:child="PATIENT_MAS" msdata:parentkey="P_CODE" msdata:childkey="P_CODE" msprop:Generator_UserRelationName="LAB_MAS_PATIENT_MAS" msprop:Generator_RelationVarName="relationLAB_MAS_PATIENT_MAS" msprop:Generator_UserChildTable="PATIENT_MAS" msprop:Generator_UserParentTable="LAB_MAS" msprop:Generator_ParentPropName="LAB_MASRow" msprop:Generator_ChildPropName="GetPATIENT_MASRows" />
+      <msdata:Relationship name="LAB_MAS_REF_DR_MAS" msdata:parent="LAB_MAS" msdata:child="REF_DR_MAS" msdata:parentkey="R_CODE" msdata:childkey="R_CODE" msprop:Generator_UserRelationName="LAB_MAS_REF_DR_MAS" msprop:Generator_RelationVarName="relationLAB_MAS_REF_DR_MAS" msprop:Generator_UserChildTable="REF_DR_MAS" msprop:Generator_UserParentTable="LAB_MAS" msprop:Generator_ParentPropName="LAB_MASRow" msprop:Generator_ChildPropName="GetREF_DR_MASRows" />
+      <msdata:Relationship name="Bill_Trans_PARA_TYPE_MAS" msdata:parent="Bill_Trans" msdata:child="PARA_TYPE_MAS" msdata:parentkey="PARA_TYPE_CODE" msdata:childkey="PARA_TYPE_CODE" msprop:Generator_UserRelationName="Bill_Trans_PARA_TYPE_MAS" msprop:Generator_RelationVarName="relationBill_Trans_PARA_TYPE_MAS" msprop:Generator_UserChildTable="PARA_TYPE_MAS" msprop:Generator_UserParentTable="Bill_Trans" msprop:Generator_ParentPropName="Bill_TransRow" msprop:Generator_ChildPropName="GetPARA_TYPE_MASRows" />
+      <msdata:Relationship name="Bill_Mas_Bill_Trans" msdata:parent="Bill_Mas" msdata:child="Bill_Trans" msdata:parentkey="BILL_NO" msdata:childkey="BILL_NO" msprop:Generator_UserRelationName="Bill_Mas_Bill_Trans" msprop:Generator_RelationVarName="relationBill_Mas_Bill_Trans" msprop:Generator_UserChildTable="Bill_Trans" msprop:Generator_UserParentTable="Bill_Mas" msprop:Generator_ParentPropName="Bill_MasRow" msprop:Generator_ChildPropName="GetBill_TransRows" />
+      <msdata:Relationship name="Bill_Mas_LAB_MAS" msdata:parent="Bill_Mas" msdata:child="LAB_MAS" msdata:parentkey="LAB_CODE" msdata:childkey="LAB_CODE" msprop:Generator_UserRelationName="Bill_Mas_LAB_MAS" msprop:Generator_RelationVarName="relationBill_Mas_LAB_MAS" msprop:Generator_UserChildTable="LAB_MAS" msprop:Generator_UserParentTable="Bill_Mas" msprop:Generator_ParentPropName="Bill_MasRow" msprop:Generator_ChildPropName="GetLAB_MASRows" />
+      <msdata:Relationship name="BILL_MAS_REPORT_BILL_TRANS_REPORT" msdata:parent="BILL_MAS_REPORT" msdata:child="BILL_TRANS_REPORT" msdata:parentkey="BILL_NO" msdata:childkey="BILL_NO" msprop:Generator_UserRelationName="BILL_MAS_REPORT_BILL_TRANS_REPORT" msprop:Generator_RelationVarName="relationBILL_MAS_REPORT_BILL_TRANS_REPORT" msprop:Generator_UserChildTable="BILL_TRANS_REPORT" msprop:Generator_UserParentTable="BILL_MAS_REPORT" msprop:Generator_ParentPropName="BILL_MAS_REPORTRow" msprop:Generator_ChildPropName="GetBILL_TRANS_REPORTRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

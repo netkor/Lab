@@ -1,0 +1,29 @@
+D:\Office\Laboratory\Lab\bin\Debug\Lab.exe
+D:\Office\Laboratory\Lab\bin\Debug\Lab.pdb
+D:\Office\Laboratory\Lab\obj\Debug\ResolveAssemblyReference.cache
+D:\Office\Laboratory\Lab\obj\Debug\Lab.Properties.Resources.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.csproj.GenerateResource.Cache
+D:\Office\Laboratory\Lab\obj\Debug\Lab.exe
+D:\Office\Laboratory\Lab\obj\Debug\Lab.pdb
+D:\Office\Laboratory\Lab\obj\Debug\Lab.BaseForm.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmParameter.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmMain.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmBill.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.MdiMain.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmPatientMas.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmDatabase.resources
+D:\Office\Laboratory\Lab\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\Office\Laboratory\Lab\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\Office\Laboratory\Lab\bin\Debug\office.dll
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmReportViewer.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmReport.resources
+D:\Office\Laboratory\Lab\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmView.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmLogin.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmUserSettings.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmCompanySettings.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmExtraReport.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmMenuSettings.resources
+D:\Office\Laboratory\Lab\obj\Debug\Lab.frmPriceList.resources
+E:\Mumtaz .Net Module\C#.Net\C# Projects\Lab\obj\Debug\Lab.exe
+E:\Mumtaz .Net Module\C#.Net\C# Projects\Lab\obj\Debug\Lab.pdb

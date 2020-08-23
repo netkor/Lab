@@ -1,0 +1,122 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="QUICK_LAB_SCHEMA" targetNamespace="QUICK_LAB_SCHEMA" xmlns:mstns="QUICK_LAB_SCHEMA" xmlns="QUICK_LAB_SCHEMA" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="QUICK_LAB_SCHEMA" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PARA_TYPE_MAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PARA_TYPE_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="PARA_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="PRICE" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="ORD" type="xs:int" default="1" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PARA_VALUE_MAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PARA_TYPE_CODE" type="xs:int" default="5" minOccurs="0" />
+              <xs:element name="PARA_VALUE_CODE" msdata:Caption="No." type="xs:int" minOccurs="0" />
+              <xs:element name="PARA_VALUE" type="xs:string" minOccurs="0" />
+              <xs:element name="TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="ORD" type="xs:int" default="1" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PARA_VALUE_RESULTS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PARA_VALUE_CODE" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="RESULT_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="RESULT_VALUE" type="xs:string" minOccurs="0" />
+              <xs:element name="MESUREMENT" type="xs:string" minOccurs="0" />
+              <xs:element name="ORD" type="xs:int" default="1" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PARA_VALUE_RANGES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PARA_VALUE_CODE" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="RANGE_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="RANGE_VALUE" type="xs:string" minOccurs="0" />
+              <xs:element name="AGE_LIMIT" type="xs:string" minOccurs="0" />
+              <xs:element name="ORD" type="xs:int" default="1" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PARA_VALUE_METHOD">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PARA_VALUE_CODE" type="xs:int" default="1" minOccurs="0" />
+              <xs:element name="METHOD_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="METHOD_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ORD" type="xs:int" default="1" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PARA_VALUE_COMMENTS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COMMENT_TYPE" type="xs:string" minOccurs="0" />
+              <xs:element name="COMMENT_VALUE" type="xs:string" minOccurs="0" />
+              <xs:element name="PARA_VALUE_CODE" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PATIENT_MAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="P_AGE" type="xs:string" minOccurs="0" />
+              <xs:element name="P_SEX" type="xs:string" minOccurs="0" />
+              <xs:element name="P_AREA" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="REF_DR_MAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="R_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="R_NAME" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LAB_MAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LAB_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="P_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="R_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="LAB_DATE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BILL_MAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BILL_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="BILL_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="BILL_TIME" type="xs:string" minOccurs="0" />
+              <xs:element name="LAB_CODE" type="xs:int" minOccurs="0" />
+              <xs:element name="TOTAL_AMT" type="xs:int" minOccurs="0" />
+              <xs:element name="LESS_AMT" type="xs:int" minOccurs="0" />
+              <xs:element name="NET_AMT" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="BILL_TRANS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BILL_NO" type="xs:int" minOccurs="0" />
+              <xs:element name="DETAILID" type="xs:int" minOccurs="0" />
+              <xs:element name="PARA_TYPE_CODE" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
